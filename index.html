@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c93afe1719.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <h1>Shivani<i class="fa-solid fa-heart"></i></h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full-stack Developer | Web Developer</p>
+            <h1>Hi, I'm <span>Shivani</span><br>From Sirsi</h1>
+        </div>
+    </div>
+   </div> 
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/shivani.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am Shivani.,
+                    A dedicated BCA graduate from KLE Society's BCA College, Dharwad, with an 8.18 CGPA (2024). I specialize in full-stack development and possess strong skills in Java, Python, HTML, CSS, Bootstrap, and Django. During my internship, I developed a Fashion Studio E-commerce website, showcasing expertise in frontend and backend technologies. With a passion for creating efficient solutions, I aim to contribute to innovative projects in the IT industry.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('project')">Project</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Technical Skills</span><br>Python, Java, MySql, DBMS, HTML, CSS, Bootstrap, Django </li>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app development</li>
+                
+                    </ul>
+                </div>
+                <div class="tab-contents" id="project">
+                    <ul>
+                        <li><span>Fashion Studio</span><br>Fashion Studio E-commerce Website
+                            I successfully developed a comprehensive e-commerce website for a Fashion Studio, focusing on clothing and dressings. The project was executed during my Full Stack Development internship from May 2024 to July 2024. Leveraging technologies such as HTML, CSS, Bootstrap, JavaScript, and Django, I handled both frontend and backend development.
+                            <br><br>
+                            The website offers seamless navigation, a user-friendly interface, and secure functionalities for browsing, selecting, and purchasing fashion items. My role encompassed designing responsive web pages, implementing dynamic features, and managing the backend database. This project highlights my expertise in creating efficient and scalable web solutions tailored to client needs.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>Metriculation from Roshani Higher Primary School, Hangal </li>
+                        <li><span>2021</span><br>Intermediate from JSS RSH PU College Vidyagiri, Dharwad</li>
+                        <li><span>2024</span><br>BCA from KLE Society's BCA College, Dharwad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>I specialize in creating visually appealing, user-friendly, and responsive websites that provide an engaging user experience. My web design expertise includes a strong command of HTML, CSS, and Bootstrap, enabling me to craft designs that are both functional and aesthetically pleasing. I focus on understanding client requirements to deliver custom solutions that align with their brand identity. By incorporating modern design principles and ensuring cross-platform compatibility, I aim to create websites that effectively meet user needs and drive results.</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>I have a keen interest in crafting intuitive and visually appealing user interfaces that enhance user experiences. My approach to UI/UX design focuses on understanding user needs, creating responsive designs, and ensuring seamless navigation. I specialize in designing prototypes and wireframes, utilizing tools like Figma and Adobe XD to transform ideas into functional designs. My projects emphasize accessibility, aesthetics, and user-centric solutions, reflecting my ability to balance creativity with usability. I strive to create digital experiences that are not only functional but also delightful for users.</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <h2>App Design</h2>
+                <p>I have a strong passion for designing intuitive and user-friendly mobile applications. My approach to app design focuses on creating visually appealing interfaces that provide seamless user experiences. Leveraging tools like HTML, CSS, Bootstrap, and JavaScript, I design responsive layouts that adapt across various devices. My work emphasizes clarity, functionality, and modern aesthetics, ensuring that the applications are both engaging and efficient. I aim to craft designs that meet user needs while reflecting the brand's identity and goals.</p>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>shivaniprabhakar43@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8792034721</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/shivani_prabhakar_/
+"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/imshivani721/
+"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="https://wa.me/<8792034721>
+"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="images/Shivani_BCA.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                </div>
+            </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Shivani <i class="fa-solid fa-heart"></i> @ 2024</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzJoLPCAv4AjM6vFeGGOiCreN8ca_ogZd8kELdxwS88fqiGG5k0voa9AEPVZAixN4IC/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
